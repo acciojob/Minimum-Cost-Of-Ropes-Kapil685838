@@ -1,6 +1,6 @@
 //your code here
-function minCostToFormRope(event) {
-	event.preventDefault();
+function minCostToFormRope() {
+	// event.preventDefault();
 	var firstinput=document.querySelector("input").value;
     var arr=firstinput.split(",");
     arr.sort(function (a, b) {
